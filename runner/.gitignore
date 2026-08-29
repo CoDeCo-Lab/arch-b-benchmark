@@ -1,0 +1,5 @@
+.idea
+go_build_spatial_benchmark_runner
+spatial_benchmark_runner
+output
+bin

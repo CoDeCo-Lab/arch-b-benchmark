@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARCH-B released benchmark",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "question", "question_images", "answers", "correct_answer_id"],
+    "properties": {
+      "id": { "type": "string", "minLength": 1 },
+      "question": { "type": "string", "minLength": 1 },
+      "question_images": {
+        "type": "array",
+        "items": { "$ref": "#/$defs/image" }
+      },
+      "answers": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "$ref": "#/$defs/answer" }
+      },
+      "correct_answer_id": { "type": "string", "minLength": 1 }
+    }
+  },
+  "$defs": {
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "hash"],
+      "properties": {
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "hash": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "images", "text"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "images": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/image" }
+        },
+        "text": { "type": "string" }
+      }
+    }
+  }
+}

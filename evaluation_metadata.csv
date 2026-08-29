@@ -1,0 +1,26 @@
+display_name,exact_provider_model_id,access_dates,temperature,reasoning_setting,correct_answers,incorrect_answers,terminal_failures,invalid_answer_ids
+gemini-3.1-pro-preview,gemini-3.1-pro-preview,2026-06-06,0,N/A - Model Default,297,48,5,4
+gemini-3.5-flash,gemini-3.5-flash,2026-06-06,0,N/A - Model Default,294,56,2,2
+claude-fable-5,claude-fable-5,2026-06-11,N/A (disabled by provider),N/A - Model Default,284,66,1,3
+gpt-4.1,gpt-4.1,2026-06-05,0,N/A - Model Default,276,78,0,0
+gpt-5.5 reasoning,gpt-5.5,2026-06-05,N/A (disabled by provider),medium reasoning effort,271,82,1,0
+gemini-3-flash-preview,gemini-3-flash-preview,2026-06-06,0,N/A - Model Default,269,78,7,0
+gpt-5.4 reasoning,gpt-5.4,2026-06-05,N/A (disabled by provider),medium reasoning effort,263,90,0,1
+gemini-2.5-pro,gemini-2.5-pro,2026-06-06,0,N/A - Model Default,253,101,0,0
+gpt-5.5,gpt-5.5,2026-06-04,0,reasoning explicitly disabled,251,102,0,1
+claude-opus-4-6-v1,us.anthropic.claude-opus-4-6-v1,2026-06-05,0,N/A - Model Default,249,105,0,0
+claude-opus-4-5-20251101-v1.0,us.anthropic.claude-opus-4-5-20251101-v1.0,2026-06-05,0,N/A - Model Default,231,120,1,2
+gpt-5.4,gpt-5.4,2026-06-05,0,reasoning explicitly disabled,228,122,3,1
+grok-4.20-0309-reasoning,grok-4.20-0309-reasoning,2026-06-07,0,N/A - Model Default,202,149,3,0
+grok-4.3,grok-4.3,2026-06-07,0,N/A - Model Default,178,172,0,4
+gpt-5.4-mini reasoning,gpt-5.4-mini,2026-06-05,N/A (disabled by provider),medium reasoning effort,177,177,0,0
+gpt-5.4-mini,gpt-5.4-mini,2026-06-05,0,reasoning explicitly disabled,165,188,0,1
+gemma3 27b,gemma3:27b,2026-06-07,0,N/A - Model Default,138,215,0,1
+claude-sonnet-4-6,us.anthropic.claude-sonnet-4-6,2026-06-05,0,N/A - Model Default,134,80,5,135
+claude-sonnet-4-5-20250929-v1.0,us.anthropic.claude-sonnet-4-5-20250929-v1.0,2026-06-05,0,N/A - Model Default,122,119,1,112
+pixtral-large-2502-v1.0,us.mistral.pixtral-large-2502-v1.0,2026-06-07,N/A (disabled by provider),N/A - Model Default,116,228,2,8
+gpt-5.4-nano reasoning,gpt-5.4-nano,2026-06-05,N/A (disabled by provider),medium reasoning effort,103,250,1,0
+claude-haiku-4-5-20251001-v1.0,us.anthropic.claude-haiku-4-5-20251001-v1.0,2026-06-05,0,N/A - Model Default,62,273,3,16
+gemini-2.5-flash,gemini-2.5-flash,2026-06-06,0,N/A - Model Default,62,24,1,267
+gpt-5.4-nano,gpt-5.4-nano,2026-06-05,0,reasoning explicitly disabled,60,292,1,1
+gemma3 4b,gemma3:4b,2026-06-06,0,N/A - Model Default,37,317,0,0
