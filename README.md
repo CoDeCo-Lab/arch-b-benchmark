@@ -1,6 +1,6 @@
 # ARCH-B supplemental materials
 
-Supplemental materials for paper (ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark)[https://arxiv.org/abs/2609.34047v1]
+Supplemental materials for paper [ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark](https://arxiv.org/abs/2609.34047v1)
 
 This repository contains the released ARCH-B benchmark and the code required to reproduce benchmark execution and scoring. It does not require the source database or private image storage: images are downloaded from the public URLs embedded in `ARCH-B.json` and verified against their released SHA-256 hashes before preprocessing.
 
